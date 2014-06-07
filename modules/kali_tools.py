@@ -60,7 +60,7 @@ class kali_tools(object):
             if ( os.path.exists(self.git_path)):
                 debug("Found git")
             else:
-                error("git - not Found in: %s \Please install git\or change to git path" %(self.git_path))
+                error("git - not Found in: %s \nPlease install git" %(self.git_path))
                 raise KeyboardInterrupt
             repo_path = "%s/output/%s" %(home, self.toClone)
             repo_to_clone =  "git clone %s%s %s" %(self.kali_git, self.toClone, repo_path)
