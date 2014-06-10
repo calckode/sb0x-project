@@ -11,11 +11,6 @@
 
 ![SS01](https://raw.githubusercontent.com/wiki/levi0x0/sb0x-project/sb0x_shell.png)
 
-###Version 1.0.6###
-
-**Version 1.0.6 is prototype**
-
-
 ###Basic Usage###
 
 *Main sb0x-shell:*

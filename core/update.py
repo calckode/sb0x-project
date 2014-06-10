@@ -48,4 +48,8 @@ def parse_remote():
                 if int(i) == int(modules_counter()):
                     pass
                 else:
-                    print "\033[01;32m[NEW] There is %d New sb0x modules " %(int(i) - int(modules_counter()))
+                    summ = int(i) - int(modules_counter())
+                    if summ == -1:
+                        pass
+                    else:
+                        print "\033[01;32m[NEW] There is %d New sb0x modules " %(summ)
