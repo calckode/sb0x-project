@@ -60,7 +60,7 @@ def main():
 			start = dsl_force(target , user, passwords)
 			code = start.run()
 			if code == 401:
-				print "[-]USER:%s PASS:%s ==>Faild!" % (user, passwords.replace("\n", ""))
+				print "[-]USER:%s PASS:%s ==>Failed!" % (user, passwords.replace("\n", ""))
 			else:
 				print "\n=> 401 error disappeared (:"
 				print "[+]USER:%s" % (user)
